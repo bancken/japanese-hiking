@@ -1,7 +1,16 @@
-h1 {
+header {
+    background-color: bisque;
     color: black;
-    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
 }
-p {
-    color: cyan;
+main {
+    background-color: cyan;
+    height: 600px;
+    width: 100%;
+}
+footer {
+    background-color: purple;
+    height: 200px;
+    width: 100vw;
 }
