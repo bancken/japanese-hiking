@@ -11,6 +11,9 @@ header {
     margin: 0;
     padding: 0;
 }
+a {
+    color: white;
+}
 h1 {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
