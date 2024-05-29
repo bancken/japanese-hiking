@@ -26,6 +26,10 @@ header {
     margin-top: 5px;
     margin-right: 20px;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+.link-style:hover {
+    color: rgba(255, 0, 0, 0.7)
 }
 h1 {
     color: white;
