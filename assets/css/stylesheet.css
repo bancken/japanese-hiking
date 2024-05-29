@@ -53,13 +53,16 @@ h1 {
 }
 .box {
     color: darkslategrey;
-    margin: 10px;
     text-align: center;
     width: 50%;
     padding: 20px;
     line-height: 1.5;
     font-size: larger;
-    font-weight: normal;
+    font-weight: 300;
+}
+.box h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
 }
 footer {
     background-color: white;
