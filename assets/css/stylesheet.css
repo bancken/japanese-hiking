@@ -20,6 +20,11 @@ header {
     padding-left: 20px;
     padding-top: 20px;
 }
+img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
 .link-style {
     color: white;
     font-size: 20px;
