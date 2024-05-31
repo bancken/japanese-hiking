@@ -71,6 +71,12 @@ h1 {
     font-size: larger;
     font-weight: 300;
 }
+.container-image {
+    width: 100%;
+    height:auto;
+    margin: 0px;
+    padding-top: 20px;
+}
 .container-box h2 {
     margin-bottom: 10px;
     font-weight: 400;
