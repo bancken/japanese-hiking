@@ -37,6 +37,15 @@ img {
 .link-style:hover {
     color: rgba(255, 0, 0, 0.7)
 }
+.link-style-maps {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.link-style-maps:hover {
+    color: rgba(255, 0, 0, 0.7)
+}
 h1 {
     color: white;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
