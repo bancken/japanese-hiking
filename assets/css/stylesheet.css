@@ -34,6 +34,12 @@ img {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+/* Media query for devices under 375px in width */
+@media (max-width: 375px) {
+    .link-style {
+        font-size: 17px;
+    }
+}
 .link-style:hover {
     color: rgba(255, 0, 0, 0.7)
 }
@@ -46,24 +52,23 @@ img {
 .link-style-maps:hover {
     color: rgba(255, 0, 0, 0.7)
 }
-h1 {
-    color: white;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-    text-align: center;
-    font-size: 35px;
-    padding-top: 250px;
-    font-size: 60px;
-}
 .banner {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 650px;
     margin: 0;
     padding: 0;
 
+}
+h1 {
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 250px;
+    font-size: 60px;
 }
 .container {
     display: flex;
@@ -79,6 +84,18 @@ h1 {
     line-height: 1.5;
     font-size: larger;
     font-weight: 300;
+}
+/* Media query for devices under 1024px in width */
+@media (max-width: 1024px) {
+    .container-box {
+        width: 75%;
+    }
+}
+/* Media query for devices under 768px in width */
+@media (max-width: 768px) {
+    .container-box {
+        width: 100%;
+    }
 }
 .container-image {
     width: 100%;
