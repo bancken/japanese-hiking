@@ -94,6 +94,12 @@ h1 {
 /* Media query for devices under 768px in width */
 @media (max-width: 768px) {
     .container-box {
+        width: 85%;
+    }
+}
+/* Media query for devices under 768px in width */
+@media (max-width: 450px) {
+    .container-box {
         width: 100%;
     }
 }
